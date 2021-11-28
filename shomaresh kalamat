@@ -1,0 +1,31 @@
+//kargah barname nvisie ostad safa
+//mohammad sadegh razmi 
+
+
+#include<iostream>
+using namespace std;
+int main()
+
+{
+
+char s[100];
+
+ int w=0;
+
+cout<<"jomle ra vared konid     **dar akhar jomle noghte nagozarid!"<<endl;
+cin.get(s,100);
+
+ for(int i=0;s[i];i++){
+
+        if(s[i]==' ')
+
+            w++;
+
+    }
+
+  cout<<"tedad kalamat: "<<w+1<<"\n";
+
+
+    return 0;
+
+}
