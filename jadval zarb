@@ -1,0 +1,23 @@
+//kargah barname nvisie ostad safa
+//mohammad sadegh razmi 
+
+#include<iostream>
+using namespace std;
+ 
+main()
+{
+int i,j,m,n;
+
+cout<<"lotfan meghdar satr ra vared konid"<<endl;
+cin >>n;
+cout<<"lotfan meghdar soton ra vared konid"<<endl;
+cin >>m;
+
+for(i=1;i<=m;i++)
+{
+for(j=1;j<=n;j++)
+cout<<"|"<<i*j<<"\t";
+cout<<"\n";
+}
+return 0;
+}
